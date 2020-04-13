@@ -25,9 +25,6 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7397609.js"></script>
-<!-- End of HubSpot Embed Code -->
 
 <body>
 
@@ -94,12 +91,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-
                         <h4>Join Our Newsletter</h4>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-
+                        <button class="join-newsletter-btn" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -139,7 +132,7 @@
               <a href="#" class="facebook round"><i class="bx bxl-facebook"></i></a>
               -->
                             <a href="https://www.instagram.com/pfrancisocnj/" target="_blank" class="instagram round"><i class="bx bxl-instagram"></i></a>
-                            <a href="https://www.instagram.com/pfrancisocnj/" target="_blank" style="font-size: 20px"> @pfracisocnj</a>
+                            <a href="https://www.instagram.com/pfrancisocnj/" target="_blank" style="font-size: 20px"> @pfrancisocnj</a>
                             <!--
               <a href="#" class="google-plus round"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin round"><i class="bx bxl-linkedin"></i></a>
@@ -161,6 +154,25 @@
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Join Our Newsletter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-body-form">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -173,3 +185,9 @@
 </body>
 
 </html>
+
+<script>
+    $(function() {
+        $('#modal-body-form').html('<iframe style="border: 0px;" src="https://share.hsforms.com/1B3-Yo0X2QdKnyEmwICklzQ4ek15" width="100%" height="100%"></iframe>');
+    });
+</script>
