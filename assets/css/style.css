@@ -351,6 +351,10 @@ a:hover {
     padding: 60px 0 30px 0;
 }
 
+#main-store .contact-info-row h4 {
+    font-size: 20px;
+}
+
 #main-store h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
@@ -376,7 +380,7 @@ a:hover {
         text-align: center;
     }
     #main-store .contact-info-row h4 {
-        font-size: 22px;
+        font-size: 20px;
         padding-left: 20px;
     }
     #main-store .download-btn+.download-btn {
