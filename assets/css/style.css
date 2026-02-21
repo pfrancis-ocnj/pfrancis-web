@@ -414,7 +414,7 @@ a:hover {
         text-align: center;
     }
     #main-store .main-store-logo-container {
-        width: 60%;
+        width: 75%;
     }
 }
 
@@ -429,13 +429,20 @@ a:hover {
         margin-bottom: 30px;
     }
     #main-store .main-store-logo-container {
-        width: 70%;
+        width: 88%;
     }
 }
 
 @media (max-width: 575px) {
     #main-store .main-store-logo-container {
-        width: 80%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 400px) {
+    #main-store .main-store-logo-container {
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
 }
 
