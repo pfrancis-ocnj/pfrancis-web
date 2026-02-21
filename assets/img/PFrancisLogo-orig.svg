@@ -4,11 +4,10 @@
 <svg
    version="1.1"
    id="svg1"
-   width="775.82715"
-   height="199.82715"
-   viewBox="0 0 775.82715 199.82715"
-   sodipodi:docname="PFrancisLogo2.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   width="1056"
+   height="816"
+   viewBox="0 0 1056 816"
+   sodipodi:docname="P Francis LOGO FINAL-01.eps"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,34 +22,23 @@
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.71813725"
-     inkscape:cx="525.66553"
-     inkscape:cy="406.60751"
-     inkscape:window-width="1440"
-     inkscape:window-height="830"
-     inkscape:window-x="-7"
-     inkscape:window-y="-7"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g1">
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:page
        x="0"
        y="0"
        inkscape:label="1"
        id="page1"
-       width="775.82715"
-       height="199.82715"
+       width="1056"
+       height="816"
        margin="0"
        bleed="0" />
   </sodipodi:namedview>
   <g
      id="g1"
      inkscape:groupmode="layer"
-     inkscape:label="1"
-     transform="translate(-2.2297564,-1.7383126)">
+     inkscape:label="1">
     <g
-       id="group-R5"
-       transform="translate(-137.85666,-306.34812)">
+       id="group-R5">
       <path
          id="path2"
          d="m 1699.91,3193.11 h 148.6 c 66.99,0 112.42,22.4 112.42,90.3 0,63.71 -47.74,84.01 -109.34,84.01 h -151.68 z m 0,-270.24 h -74.69 v 502.66 h 248.7 c 102.41,0 164,-60.21 164,-141.42 0,-70.01 -43.89,-149.11 -164,-149.11 h -174.01 v -212.13"
